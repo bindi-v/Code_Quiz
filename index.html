@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Quiz</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+    <header class="quiz-card">
+    
+        <h1>Trivia On Code </h1>
+    
+      <p>You have 10 seconds to answer.</p>
+      <p>Every Right answer get points.</p>
+      <p>Every Wrong answer substract your points And Time by 10 seconds.</p> 
+      <p>When no time left, Game End!!</p>  
+      <p> The result is based on a two factors: score and time taken to complete the quiz.</p>
+       <h2> Start Quiz</h2>
+        <button class="start-btn">Start</button>
+        <button class="quit-btn">Quit</button>
+      
+</header>
+      
+      
+      <div class="score-card">
+        <div class="scorecard">
+          <p class="display-score"></p>
+          <input type="text" name="initials" class="initials" maxlength="2" placeholder ="Enter initials here" />
+          <button class="submit-btn">Submit</button>
+          <h2>You're Done!!</h2>
+          <p>Name: <span id="display-name"></span></p>
+          <p>Score:<span id="scores-display"></span></p>
+
+            <button class="replay">Replay</button>
+            <button class="exit"> Back to Start </button>
+        </div>
+        <div class="card-timer">
+            <div class="timer-text"> </div>
+          </div>
+      <div class="quiz">
+        <div class="questions">
+          
+            <h2>Questions</h2>
+        </div>
+        <ul class="answers">
+            <li><button class="btnA" class="ansBtns" id="btnA">A</button></li>
+            <li><button class="btnB" class="ansBtns" id="btnB">B</button></li>
+            <li><button class="btnC" class="ansBtns" id="btnC">C</button></li>
+            <li><button class="btnD" class="ansBtns" id="btnD">D</button></li>
+      </div>
+      </div>
+
+    <script src="script.js"></script>  
+</body>
+</html>

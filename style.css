@@ -1,0 +1,124 @@
+* {
+    background-color: whitesmoke;
+    box-sizing: border-box;
+    color: darkslateblue;
+
+}
+.quiz-card, .score-card {
+    display: block;
+    background-color: whitesmoke;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 40px;
+    margin:10%;
+    border-radius: 15px;
+}
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-style: oblique;
+    text-align: center;
+    padding-top: 50px 10px 50px 10px;
+    background-color: powderblue
+}
+
+button {
+    display: flex;
+    flex-wrap: wrap;
+    border: double 2px lavender;
+    border-radius: 10px;
+    font-weight: bolder;
+    text-align: center;
+    background-color: skyblue;
+
+} 
+
+button:hover {
+    background-color: peru;
+    }
+
+p {
+        display: block;
+        grid-template-rows: auto;
+        background-color: lavender;
+        font-weight: bold;
+        padding: 10px;
+        border-radius: 8px;
+        margin: 5px;
+    } 
+input {
+    background-color: blanchedalmond;
+}
+.questions {
+        background-color: paleturquoise;
+        border: solid 1px whitesmoke;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 30px;
+        margin: 10%;
+        border-radius: 8px;
+    }
+
+.answers {
+        padding: 5px 40px 5px 40px;
+        margin : 10px;
+        font-weight: bold;
+        box-shadow: 10px 8px 5px 2px darkolivegreen;
+    } 
+    
+.answer:hover {
+        background-color: mediumaquamarine;
+    }
+
+.ansBtns {
+        display: grid;
+        border: solid 3px lightskyblue;
+        padding: 20px;
+        background-color: lightgrey;
+        border: dotted 4px whitesmoke;
+        border-radius: 6px;
+        justify-items: center;
+    }
+
+.quiz {
+        display: block;
+        background-color:whitesmoke;
+        border: thin lightslategray;
+        border-radius: 10px;
+        padding: 15px 30px 15px 30px;
+    }
+
+#start {
+        text-align: center;
+    }
+    
+.timer-text {
+        
+        background-color:transparent;
+        font-weight: bold;
+        color: blue;
+        padding: 10px;
+    }
+
+.start-btn, .quit-btn {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template: max-content;
+        background-color: paleturquoise;
+        border: double 3px darkviolet;
+        padding: 15px 20px 15px 20px ;
+       justify-items: center;
+    }
+
+@media screen and (max-width: 992px) {
+body {
+    flex-direction: column;
+   }
+}
+
+@media screen and (max-width: 504px) {
+body {
+      font-size: 2em;
+      flex-direction: column;
+    }
+}
