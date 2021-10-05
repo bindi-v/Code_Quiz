@@ -23,3 +23,9 @@ WHEN all questions are answered or the timer reaches 0
 THEN the game is over
 WHEN the game is over
 THEN I can save my initials and my score
+
+* The URL of the deployed application
+https://bindi-v.github.io/Code_Quiz/
+
+* The URL of the GitHub repository 
+https://github.com/bindi-v/Code_Quiz
