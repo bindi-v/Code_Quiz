@@ -48,7 +48,7 @@ This project is licensed under
  MIT
 For more about the license, check this link
 
-![License](https://opensource.org/licenses/MIT)
+[License](https://opensource.org/licenses/MIT)
 
 ## Contribution
 Created this quiz using HTML, CSS and JS by using Coding Bootcamp activities
