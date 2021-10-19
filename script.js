@@ -2,7 +2,7 @@
 var questions = [
     {   question:" Which element in HTML have self-closing tag?",
          options: ["A. main", "B. img", " C. p", "D. a"],
-         correctAnswer : 1,
+         answer : 1,
   },
   {
     question:"On which elements you create style in CSS?",
@@ -128,7 +128,7 @@ function saveScore (){
     var name = initials.value;
     var newScore = {"name": name, "score": score}
         highScore.push(newScore);
-    //{name, score};
+    
     localStorage.setItem("highScore", JSON.stringify(highScore));
     console.log(saveScore)
 }
