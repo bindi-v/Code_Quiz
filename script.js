@@ -123,19 +123,26 @@ function showScoreCard() {
     scoreCard.style.display="block";
     displayScore.textContent="You got: " + score + "  correct!";
 }
-
+var highScore = [];
 function saveScore (){
     var name = initials.value;
-    var newScore = {name, score};
-    localStorage.setItem("newScore", JSON.stringify(newScore));
+    var newScore = {"name": name, "score": score}
+        highScore.push(newScore);
+    //{name, score};
+    localStorage.setItem("highScore", JSON.stringify(highScore));
     console.log(saveScore)
 }
 
 function displayScores() {
-    var showScores = JSON.parse(localStorage.getItem("newScore"));
+    var showScores = JSON.parse(localStorage.getItem("highScore"));
+    console.log(showScores);
     if (showScores !== null) {
-        document.getElementById("display-name").innerHTML = showScores.name;
-        document.getElementById("scores-display").innerHTML = showScores.score;
+        for (var i = 0; i < showScores.length; i++){
+    
+     document.getElementById("display-name").innerHTML = showScores[i].name;
+    
+    document.getElementById("scores-display").innerHTML = showScores[i].score;
+        }
     } else { 
         return;
     }
