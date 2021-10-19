@@ -24,6 +24,46 @@ THEN the game is over
 WHEN the game is over
 THEN I can save my initials and my score
 
+## Description
+
+ ![License](https://img.shields.io/badge/License-MIT-yellow)
+
+## Table Of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contribution](#contribution)
+- [Contact](#contact)
+    
+## Installation 
+   N/A
+## Usage
+
+ when you click start button it will leads you to quiz.
+
+## License
+
+This project is licensed under
+ MIT
+For more about the license, check this link
+
+![License](https://opensource.org/licenses/MIT)
+
+## Contribution
+Created this quiz using HTML, CSS and JS by using Coding Bootcamp activities
+## Contact
+
+* GitHub : bindi-v
+* Email : bindi.vaghela@gmail.com
+    
+## Questions
+
+If you have any questions, please reach out to this email,
+ bindi.vaghela@gmail.com
+
+## Deployed Links
+
 * The URL of the deployed application
 https://bindi-v.github.io/Code_Quiz/
 
