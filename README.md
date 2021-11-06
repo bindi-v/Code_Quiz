@@ -6,12 +6,17 @@ To build a timed coding quiz with multiple-choice questions. This app will run i
 
 ## User Story
 
+```md
 AS A coding boot camp student
 I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
 SO THAT I can gauge my progress compared to my peers
+```
 
-## Quiz Features
+## Description
 
+ ![License](https://img.shields.io/badge/License-MIT-yellow)
+
+```md
 GIVEN I am taking a code quiz
 WHEN I click the start button
 THEN a timer starts and I am presented with a question
@@ -23,10 +28,13 @@ WHEN all questions are answered or the timer reaches 0
 THEN the game is over
 WHEN the game is over
 THEN I can save my initials and my score
+```
 
-## Description
+## Mock Up
 
- ![License](https://img.shields.io/badge/License-MIT-yellow)
+The following animation demonstrates the application functionality:
+
+![A user clicks through an interactive coding quiz, then enters initials to save the high score before resetting and starting over.](./Assets/CodeQuiz-demo.gif)
 
 ## Table Of Contents
 
@@ -40,7 +48,7 @@ THEN I can save my initials and my score
    N/A
 ## Usage
 
- when you click start button it will leads you to quiz.
+ Anyone with deployed link can use code quiz application. When you click start button it will leads you to quiz.
 
 ## License
 
@@ -51,21 +59,22 @@ For more about the license, check this link
 [License](https://opensource.org/licenses/MIT)
 
 ## Contribution
-Created this quiz using HTML, CSS and JS by using Coding Bootcamp activities
+
+Created this quiz using HTML, CSS and JS by using Coding Boot Camp activities
+
 ## Contact
 
-* GitHub : bindi-v
+* GitHub : [bindi-v](https://github.com/bindi-v)
 * Email : bindi.vaghela@gmail.com
     
 ## Questions
 
-If you have any questions, please reach out to this email,
- bindi.vaghela@gmail.com
+If you have any questions, please reach out to my Github.
 
-## Deployed Links
+## Deployed Link
 
-* The URL of the deployed application
-https://bindi-v.github.io/Code_Quiz/
+* [The URL of the deployed application](https://bindi-v.github.io/Code_Quiz/)
 
-* The URL of the GitHub repository 
-https://github.com/bindi-v/Code_Quiz
+* [The URL of the GitHub repository](https://github.com/bindi-v/Code_Quiz)
+
+#### Thank you for visiting my Github!
